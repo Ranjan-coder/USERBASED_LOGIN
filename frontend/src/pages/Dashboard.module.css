@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Role-specific messages */
+  .roleMessage {
+    font-size: 1.2rem;
+    color: #6c757d;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Course list styling */
+  .courseList {
+    margin-top: 20px;
+  }
+  
+  /* Individual course card */
+  .courseCard {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .courseCard h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .courseCard p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  /* Link styling */
+  .addCourseLink {
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .addCourseLink:hover {
+    text-decoration: underline;
+  }
+  .logoutButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .logoutButton:hover {
+    background-color: #c82333;
+  }  
